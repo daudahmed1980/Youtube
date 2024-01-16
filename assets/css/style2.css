@@ -86,14 +86,16 @@ input[type="text"] {
 .aside {
     /* padding-top: 25px; */
     width: 300px;
+    background: red;
     /* height: calc(100vh-70px); */
     position: fixed;
-    overflow-y: auto;
+overflow-y: auto;
 }
+
 .aside ul{
     width: 300px;
     position: fixed;
-    overflow-y: auto;
+    /* overflow-y: auto; */
 }
 
 .aside ul li a {
